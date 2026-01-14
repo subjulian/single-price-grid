@@ -3,7 +3,7 @@
 Frontend Mentor challenge built with **React + Vite**.
 
 ## 🚀 Demo
-👉 (aquí irá el link cuando lo publiques)
+https://single-pric.netlify.app/
 
 ## 🛠️ Built with
 - React
