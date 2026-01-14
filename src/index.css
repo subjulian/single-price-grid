@@ -1,0 +1,129 @@
+:root {
+  --Teal-500: hsl(179, 62%, 43%);
+  --Green-400: hsl(71, 73%, 54%);
+  --Teal-100: hsl(204, 43%, 93%);
+  --Gray-500: hsl(218, 22%, 67%);
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: var(--Teal-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card{
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.superior-card{
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 2rem;
+}
+
+.superior-card h2{
+  color: var(--Teal-500);
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.description{
+  color: var(--Green-400);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.text{
+  color: var(--Gray-500);
+  width: 500px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.inferior-card{
+  display: flex;
+}
+
+.payment-card{
+  background-color: #2bb3b1;
+  width: 300px;
+  padding: 2rem;
+  border-bottom-left-radius: 10px;
+}
+.payment-card h3{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.payment-card h1{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.payment-card h1 span{
+  color: white;
+  font-weight: lighter;
+  opacity: .6;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.payment-card p{
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.payment-card button{
+  width: 220px;
+  padding: .8rem;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--Green-400);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: .5rem;
+}
+
+.information-card{
+  background-color: #4abebd;
+  width: 300px;
+  padding: 2rem;
+  border-bottom-right-radius: 10px;
+
+}
+.information-card h4{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.information-card p{
+  color: white;
+  font-weight: lighter;
+  width: 170px;
+  font-size: 14px;
+  line-height: 1.5;
+}
